@@ -10,9 +10,9 @@ The following table lists all the available plugins along with their description
 
 The download link will point you to a GitHub release page. Once you are there, simply scroll down to the "Assets" section and find the file that ends with `.js`.
 
-| Plugin          | Description                                                    | Download Latest Version |
+| Plugin | Description | Download Latest Version |
 |-----------------|----------------------------------------------------------------|-------------------------|
-| CRG_VideoSplash | Replaces the default splash screen with one or multiple videos | Soon                    |
+| [CRG_VideoSplash](plugins/CRG_VideoSplash/) | Replaces the default splash screen with one or multiple videos | [v1.0.0](https://github.com/OfficialCRUGG/rpgm-mz-plugins/releases/tag/CRG_VideoSplash%401.0.0) |
 
 ## License
 
