@@ -1,0 +1,16 @@
+{
+  "name": "@crugg/rpgm-mz-plugins",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "rpgmts build",
+    "dev": "npm run build && node dev-copy.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^14",
+    "dotenv": "^18.0.7",
+    "rpgmaker-mz-types": "^1.0.0",
+    "rpgmts": "^0.1.0"
+  }
+}

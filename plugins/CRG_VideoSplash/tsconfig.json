@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "noEmit": true,
+    "types": ["node", "rpgmaker-mz-types", "globals.d.ts"],
+    "skipLibCheck": true
+  },
+  "include": ["src/*", "globals.d.ts", "metadata.ts"]
+}
