@@ -11,6 +11,15 @@ const skipDetectionJs =
   parameters["skipDetectionJs"] ||
   'return Input.isTriggered("ok") || Input.isTriggered("escape") || Input.isTriggered("cancel") || TouchInput.isTriggered();';
 
+interface Scene_Splash {
+  _splashIndex: number;
+  _splashesFinished: boolean;
+  _splashesStarted: boolean;
+
+  nextSplash: () => void;
+  finishSplashes: () => void;
+}
+
 Scene_Splash.prototype.create = function () {
   Scene_Base.prototype.create.call(this);
 
