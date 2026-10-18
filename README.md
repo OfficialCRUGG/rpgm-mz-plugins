@@ -13,6 +13,7 @@ The download link will point you to a GitHub release page. Once you are there, s
 | Plugin | Description | Download Latest Version |
 |-----------------|----------------------------------------------------------------|-------------------------|
 | [CRG_VideoSplash](plugins/CRG_VideoSplash/) | Replaces the default splash screen with one or multiple videos | [v1.0.0](https://github.com/OfficialCRUGG/rpgm-mz-plugins/releases/tag/CRG_VideoSplash%401.0.0) |
+| [SamplePlugin](plugins/SamplePlugin/) (Unlicense) | A sample plugin for RPG Maker MZ made using rpgmts | Not available yet |
 
 ## License
 
