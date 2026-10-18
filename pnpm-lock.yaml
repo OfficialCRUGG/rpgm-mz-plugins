@@ -8,15 +8,15 @@ importers:
 
   .:
     devDependencies:
+      '@rpgmts/types-mz':
+        specifier: ^1.1.0
+        version: 1.1.0
       '@types/node':
         specifier: ^14
         version: 14.18.63
       dotenv:
         specifier: ^18.0.7
         version: 18.0.7
-      rpgmaker-mz-types:
-        specifier: ^1.0.0
-        version: 1.0.0
       rpgmts:
         specifier: ^0.1.0
         version: 0.1.0
@@ -187,6 +187,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@rpgmts/types-mz@1.1.0':
+    resolution: {integrity: sha512-ynmWHn/5yQboXsFjwyuIn2AZrxlsy0CLivQL/TVTQmtc06uUcnawTjsXypEnoQug0kE8Ed9ix5eY+Al7J8mfaQ==}
+
   '@types/node@14.18.63':
     resolution: {integrity: sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==}
 
@@ -284,9 +287,6 @@ packages:
   readdirp@5.1.1:
     resolution: {integrity: sha512-Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA==}
     engines: {node: '>= 20.19.0'}
-
-  rpgmaker-mz-types@1.0.0:
-    resolution: {integrity: sha512-oaPUL8WvmN9WrvhWXtkpTJrXZJVw8pgCqXOylE7L+fpDI5A4udItx53hDTd5ApPmaHNeX1iewTI9i9mXDgeM3Q==}
 
   rpgmts@0.1.0:
     resolution: {integrity: sha512-SwtzGK7+MrnmF7s9B2T1xsp/AKK8mVaT+0ze6iMOz0BaCcx5Ke9ZzJDzI6c+2GVk5wQpHOqGhAcWixEYcgU2Kg==}
@@ -402,6 +402,8 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
+  '@rpgmts/types-mz@1.1.0': {}
+
   '@types/node@14.18.63': {}
 
   c12@3.3.4:
@@ -515,8 +517,6 @@ snapshots:
       destr: 2.0.5
 
   readdirp@5.1.1: {}
-
-  rpgmaker-mz-types@1.0.0: {}
 
   rpgmts@0.1.0:
     dependencies:
