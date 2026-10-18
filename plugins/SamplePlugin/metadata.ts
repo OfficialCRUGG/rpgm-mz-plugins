@@ -336,7 +336,7 @@ const params: PluginParameter[] = [
     text: "Note",
     type: "note",
     desc: "A note input.",
-    default: ["Hello", "World"],
+    default: '"Hello World"',
     parent: "Advanced Primitives",
   },
   {
