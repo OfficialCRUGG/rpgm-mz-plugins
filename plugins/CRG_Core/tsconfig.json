@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "noEmit": true,
+    "types": ["node", "@rpgmts/types-mz"],
+    "skipLibCheck": true
+  },
+  "include": ["src/*", "globals.d.ts", "metadata.ts", "src/utils/params.ts"]
+}
