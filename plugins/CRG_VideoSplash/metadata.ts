@@ -2,10 +2,15 @@ import type { PluginMetadata } from "rpgmts";
 
 export const videoSplashMetadata: PluginMetadata = {
   target: "mz",
-  plugindesc: "[MZ] [v1.0.0] CRG_VideoSplash",
+  plugindesc: "[MZ] [v1.1.0] CRG_VideoSplash",
   author: "CRUGG",
   help: `This plugin allows you to replace the default splash screen with one or
 multiple videos.
+
+== Note ==
+This plugin requires CRG_Core (v1.0.0 or later) to function.
+This core-plugin includes utility functions used across my plugins. This
+plugin does *not* come with any noticable changes to your game!
 
 ==  Instructions ==
 Using the "Splashes" parameter, you can define one or multiple video files

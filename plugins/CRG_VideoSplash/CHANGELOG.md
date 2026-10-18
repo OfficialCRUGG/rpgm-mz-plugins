@@ -1,8 +1,9 @@
 # CRG_VideoSplash Changelog
 
-## Upcoming Release
+## v1.1.0 (2026-10-18)
 
-- Minor non-impacting code changes
+- Utilized CRG_Core for parameter handling
+- Minor code changes
 
 ## v1.0.0 (2026-10-11)
 

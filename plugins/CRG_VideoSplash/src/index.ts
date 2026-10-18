@@ -1,23 +1,35 @@
 "use strict";
 
+if (typeof CRG === "undefined") {
+  throw new Error("CRG_Core is required");
+}
+
+if (!CRG.minVer("1.0.0")) {
+  throw new Error("CRG_Core must be version 1.0.0 or higher");
+}
+
+import { videoSplashMetadata } from "../metadata";
+
 const PLUGIN_NAME = "CRG_VideoSplash";
-const parameters = PluginManager.parameters(PLUGIN_NAME);
-
-const splashes = JSON.parse(parameters["splashes"] || "[]").map((splash: any) =>
-  JSON.parse(splash),
+const {
+  splashes = false,
+  skippable = "all",
+  skipDetectionJs = 'return Input.isTriggered("ok") || Input.isTriggered("escape") || Input.isTriggered("cancel") || TouchInput.isTriggered();',
+} = CRG.parameters(
+  PLUGIN_NAME,
+  videoSplashMetadata.params,
+  videoSplashMetadata.structs,
 );
-const skippable = parameters["skippable"] || "all";
-const skipDetectionJs =
-  parameters["skipDetectionJs"] ||
-  'return Input.isTriggered("ok") || Input.isTriggered("escape") || Input.isTriggered("cancel") || TouchInput.isTriggered();';
 
-interface Scene_Splash {
-  _splashIndex: number;
-  _splashesFinished: boolean;
-  _splashesStarted: boolean;
+declare global {
+  interface Scene_Splash {
+    _splashIndex: number;
+    _splashesFinished: boolean;
+    _splashesStarted: boolean;
 
-  nextSplash: () => void;
-  finishSplashes: () => void;
+    nextSplash(): void;
+    finishSplashes(): void;
+  }
 }
 
 Scene_Splash.prototype.create = function () {
