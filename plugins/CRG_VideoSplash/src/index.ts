@@ -87,9 +87,9 @@ Scene_Splash.prototype.finishSplashes = function () {
   this._splashesFinished = true;
 
   if (Video.isPlaying()) {
-    Video._element.pause();
-    Video._element.removeAttribute("src");
-    Video._element.load();
+    Video._element?.pause();
+    Video._element?.removeAttribute("src");
+    Video._element?.load();
   }
 
   Video._updateVisibility(false);

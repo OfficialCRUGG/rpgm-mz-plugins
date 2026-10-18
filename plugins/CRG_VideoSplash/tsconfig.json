@@ -6,7 +6,7 @@
     "lib": ["ES2020", "DOM"],
     "strict": true,
     "noEmit": true,
-    "types": ["node", "rpgmaker-mz-types", "globals.d.ts"],
+    "types": ["node", "@rpgmts/types-mz"],
     "skipLibCheck": true
   },
   "include": ["src/*", "globals.d.ts", "metadata.ts"]
