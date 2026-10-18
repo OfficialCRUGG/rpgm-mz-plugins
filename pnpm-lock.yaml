@@ -18,8 +18,8 @@ importers:
         specifier: ^18.0.7
         version: 18.0.7
       rpgmts:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.2.1
+        version: 0.2.1
 
 packages:
 
@@ -288,8 +288,8 @@ packages:
     resolution: {integrity: sha512-Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA==}
     engines: {node: '>= 20.19.0'}
 
-  rpgmts@0.1.0:
-    resolution: {integrity: sha512-SwtzGK7+MrnmF7s9B2T1xsp/AKK8mVaT+0ze6iMOz0BaCcx5Ke9ZzJDzI6c+2GVk5wQpHOqGhAcWixEYcgU2Kg==}
+  rpgmts@0.2.1:
+    resolution: {integrity: sha512-M3L0hY8yxfLKRgFYQjJCo6Ua70DQwU34jOGeMQgqrHo8ZC4tl1gUvxfkUoDTl4I8QSXj+hhmb/JjBpbF3Ge27g==}
     hasBin: true
 
   sisteransi@1.0.5:
@@ -518,7 +518,7 @@ snapshots:
 
   readdirp@5.1.1: {}
 
-  rpgmts@0.1.0:
+  rpgmts@0.2.1:
     dependencies:
       '@clack/prompts': 1.8.1
       c12: 3.3.4
