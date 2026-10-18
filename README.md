@@ -10,15 +10,11 @@ The following table lists all the available plugins along with their description
 
 The download link will point you to a GitHub release page. Once you are there, simply scroll down to the "Assets" section and find the file that ends with `.js`.
 
-| Plugin | Description | Download Latest Version |
-|-----------------|----------------------------------------------------------------|-------------------------|
-| [CRG_VideoSplash](plugins/CRG_VideoSplash/) | Replaces the default splash screen with one or multiple videos | [v1.0.0](https://github.com/OfficialCRUGG/rpgm-mz-plugins/releases/tag/CRG_VideoSplash%401.0.0) |
-| [SamplePlugin](plugins/SamplePlugin/) (Unlicense) | A sample plugin for RPG Maker MZ made using rpgmts | Not available yet |
-
-## License
-
-Most plugins in this repository are going to be licensed under the MIT License.
-However, some plugins may have their own licenses, so be sure to check the individual plugin's documentation for any specific licensing information.
+| Plugin | Description | License | Download Latest Version |
+|--------|-------------|---------|-------------------------|
+| [CRG_Core](plugins/CRG_Core/) | Core plugin that provides utility functions for my plugins (no noticable changes!) | [MIT License](https://github.com/OfficialCRUGG/rpgm-mz-plugins/blob/main/plugins/CRG_Core/LICENSE) | [v1.0.0](https://github.com/OfficialCRUGG/rpgm-mz-plugins/releases/tag/CRG_Core%401.0.0) |
+| [CRG_VideoSplash](plugins/CRG_VideoSplash/) | Replaces the default splash screen with one or multiple videos | [MIT License](https://github.com/OfficialCRUGG/rpgm-mz-plugins/blob/main/plugins/CRG_VideoSplash/LICENSE) | [v1.0.0](https://github.com/OfficialCRUGG/rpgm-mz-plugins/releases/tag/CRG_VideoSplash%401.0.0) |
+| [SamplePlugin](plugins/SamplePlugin/) | A sample plugin for RPG Maker MZ made using rpgmts | [Unlicense](https://github.com/OfficialCRUGG/rpgm-mz-plugins/blob/main/plugins/SamplePlugin/LICENSE) | Not available yet |
 
 ## Contributing
 
