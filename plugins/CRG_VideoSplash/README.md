@@ -3,6 +3,7 @@
 This plugin allows you to replace the default splash screen with one or multiple videos.
 
 ##  Instructions
+
 Using the "Splashes" parameter, you can define one or multiple video files to be played as splash screens.
 
 Currently, only video files are supported. In the future, I hope to add support for images as well.
@@ -23,10 +24,14 @@ If you want to customize how the skip input is detected and know what you're doi
 Make sure to leave the "return" statement intact and return a boolean value indicating whether the skip should be triggered.
 
 ## Compatibility
+
 This plugin was developed for RPG Maker MZ with Corescript v1.10.0. Any older versions as well as RPG Maker MV may not be supported.
 
 Furthermore, this plugin is likely not directly compatible with any plugins that modify the splash screen. If you are having trouble because of this, try placing this plugin below those plugins in the Plugin Manager. If the issue persists, disable the conflicting plugins and create a GitHub issue so we can check whether it can be solved in any way.
 
 ## Notices
+
 This plugin was developed by CRUGG.
+Available under the [MIT License](https://github.com/OfficialCRUGG/rpgm-mz-plugins/blob/main/plugins/CRG_VideoSplash/LICENSE).
+
 Found any issues or have suggestions? Create an issue on GitHub: https://github.com/OfficialCRUGG/rpgm-mz-plugins/issues
